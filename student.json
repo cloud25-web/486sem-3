@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "age": 20,
+    "gender": "Male",
+    "course": "B.Tech CSE",
+    "year": 2,
+    "email": "aarav.sharma@example.com",
+    "phone": "9876543210",
+    "cgpa": 8.7,
+    "city": "Delhi"
+  },
+  {
+    "id": 2,
+    "name": "Diya Verma",
+    "age": 19,
+    "gender": "Female",
+    "course": "B.Tech IT",
+    "year": 1,
+    "email": "diya.verma@example.com",
+    "phone": "9876543211",
+    "cgpa": 9.1,
+    "city": "Noida"
+  },
+  {
+    "id": 3,
+    "name": "Rohan Mehta",
+    "age": 21,
+    "gender": "Male",
+    "course": "B.Tech ECE",
+    "year": 3,
+    "email": "rohan.mehta@example.com",
+    "phone": "9876543212",
+    "cgpa": 8.3,
+    "city": "Gurugram"
+  },
+  {
+    "id": 4,
+    "name": "Ananya Gupta",
+    "age": 20,
+    "gender": "Female",
+    "course": "B.Tech CSE",
+    "year": 2,
+    "email": "ananya.gupta@example.com",
+    "phone": "9876543213",
+    "cgpa": 9.4,
+    "city": "Lucknow"
+  },
+  {
+    "id": 5,
+    "name": "Kabir Singh",
+    "age": 22,
+    "gender": "Male",
+    "course": "B.Tech Mechanical",
+    "year": 4,
+    "email": "kabir.singh@example.com",
+    "phone": "9876543214",
+    "cgpa": 7.9,
+    "city": "Jaipur"
+  },
+  {
+    "id": 6,
+    "name": "Sneha Patel",
+    "age": 19,
+    "gender": "Female",
+    "course": "B.Tech Civil",
+    "year": 1,
+    "email": "sneha.patel@example.com",
+    "phone": "9876543215",
+    "cgpa": 8.8,
+    "city": "Ahmedabad"
+  },
+  {
+    "id": 7,
+    "name": "Aditya Rao",
+    "age": 21,
+    "gender": "Male",
+    "course": "B.Tech AI & ML",
+    "year": 3,
+    "email": "aditya.rao@example.com",
+    "phone": "9876543216",
+    "cgpa": 9.0,
+    "city": "Hyderabad"
+  },
+  {
+    "id": 8,
+    "name": "Meera Nair",
+    "age": 20,
+    "gender": "Female",
+    "course": "B.Tech CSE",
+    "year": 2,
+    "email": "meera.nair@example.com",
+    "phone": "9876543217",
+    "cgpa": 8.5,
+    "city": "Kochi"
+  },
+  {
+    "id": 9,
+    "name": "Yash Malhotra",
+    "age": 22,
+    "gender": "Male",
+    "course": "B.Tech Electrical",
+    "year": 4,
+    "email": "yash.malhotra@example.com",
+    "phone": "9876543218",
+    "cgpa": 7.8,
+    "city": "Chandigarh"
+  },
+  {
+    "id": 10,
+    "name": "Priya Joshi",
+    "age": 21,
+    "gender": "Female",
+    "course": "B.Tech Data Science",
+    "year": 3,
+    "email": "priya.joshi@example.com",
+    "phone": "9876543219",
+    "cgpa": 9.3,
+    "city": "Pune"
+  }
+]
