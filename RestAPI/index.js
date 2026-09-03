@@ -18,6 +18,15 @@ app.post('/users', (req,res) => {
   users.push(user);
   res.json(user);
 });
+
+app.put('/users/:id', (req,res) => {
+  let user = users.find(u=> u.id==req.params.id);
+  user.name = req.body.name;
+  user.email = req.body.email;
+  res.send("User updated successfully");
+  res.json(user);
+});
+
 app.listen(8000, () => {
   console.log('Server is running on http://localhost:8000');
 });
