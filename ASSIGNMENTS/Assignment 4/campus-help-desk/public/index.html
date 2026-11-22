@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Campus Help Desk</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Header -->
+        <section class="hero">
+            <p class="tag">CAMPUS SUPPORT</p>
+
+            <h1>
+                Campus <span>Help Desk</span>
+            </h1>
+
+            <p class="subtitle">
+                Report campus problems and get them resolved faster.
+            </p>
+        </section>
+
+
+        <!-- Request Form -->
+        <section class="form-card">
+
+            <h2>Submit a Request</h2>
+
+            <form id="requestForm">
+
+                <!-- Student Name -->
+                <div class="form-group">
+                    <label for="studentName">Student Name</label>
+
+                    <input
+                        type="text"
+                        id="studentName"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your college email"
+                        required
+                    >
+                </div>
+
+
+                <!-- Category -->
+                <div class="form-group">
+                    <label for="category">Category</label>
+
+                    <select id="category" required>
+                        <option value="">Select a category</option>
+                        <option value="Wi-Fi">Wi-Fi / Internet</option>
+                        <option value="Infrastructure">Infrastructure</option>
+                        <option value="Library">Library</option>
+                        <option value="Hostel">Hostel</option>
+                        <option value="Transport">Transport</option>
+                        <option value="Academic">Academic</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+
+                <!-- Description -->
+                <div class="form-group">
+                    <label for="description">Problem Description</label>
+
+                    <textarea
+                        id="description"
+                        placeholder="Describe your problem..."
+                        rows="5"
+                        required
+                    ></textarea>
+                </div>
+
+
+                <!-- Priority -->
+                <div class="form-group">
+
+                    <label>Priority</label>
+
+                    <div class="priority-options">
+
+                        <label class="priority low">
+                            <input
+                                type="radio"
+                                name="priority"
+                                value="Low"
+                                required
+                            >
+                            <span>Low</span>
+                        </label>
+
+                        <label class="priority medium">
+                            <input
+                                type="radio"
+                                name="priority"
+                                value="Medium"
+                            >
+                            <span>Medium</span>
+                        </label>
+
+                        <label class="priority high">
+                            <input
+                                type="radio"
+                                name="priority"
+                                value="High"
+                            >
+                            <span>High</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Submit -->
+                <button type="submit" class="submit-btn">
+                    Submit Request
+                    <span>→</span>
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Submitted Requests -->
+        <section class="requests-section">
+
+            <div class="section-heading">
+                <div>
+                    <p class="tag">YOUR SUBMISSIONS</p>
+                    <h2>Submitted Requests</h2>
+                </div>
+
+                <span id="requestCount" class="request-count">
+                    0 Requests
+                </span>
+            </div>
+
+
+            <!-- Requests will be inserted using JavaScript -->
+            <div id="requestsContainer">
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
